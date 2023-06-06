@@ -1,0 +1,34 @@
+.projects {
+}
+
+.projects__list {
+  padding-left: 0.5rem;
+
+  li {
+    img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+.projects__buttons {
+  display: flex;
+  gap: 10px;
+}
+.projects__button {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-inline: 15px;
+  border-radius: 0.5rem;
+  color: white;
+  appearance: button;
+  background-color: hsl(140, 52%, 55%);
+
+  &:hover {
+    background-color: hsl(140, 42%, 50%);
+  }
+}

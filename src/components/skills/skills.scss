@@ -1,0 +1,11 @@
+.skills__list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  flex-wrap: wrap;
+
+  li {
+    width: 300px;
+    text-align: center;
+  }
+}

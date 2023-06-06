@@ -1,0 +1,33 @@
+.main {
+  color: black;
+  background-color: white;
+  width: 90%;
+
+  margin: auto;
+}
+
+.section {
+  padding: 4rem;
+  border-bottom: 1px solid #dbdada;
+  p {
+    line-height: 36px;
+    color: rgba($color: #000000, $alpha: 0.7);
+    font-size: 18px;
+  }
+
+  * {
+    margin-block: 1em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section {
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .section {
+    padding-inline: 0.5rem;
+  }
+}
