@@ -23,9 +23,11 @@ const Contact = () => {
             target="_blank"
           >
             <AiFillLinkedin size={40} />
+            <span className="hidden">Github</span>
           </a>
           <a href="https://github.com/smn0000" target="_blank">
             <AiFillGithub size={40} />
+            <span className="hidden">Github</span>
           </a>
         </p>
       </div>

@@ -1,15 +1,5 @@
-.projects {
-}
-
 .projects__list {
   padding-left: 0.5rem;
-
-  li {
-    img {
-      width: 100%;
-      border-radius: 0.5rem;
-    }
-  }
 }
 
 .projects__buttons {
@@ -22,13 +12,60 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
-  padding-inline: 15px;
+  padding: 20px 15px;
   border-radius: 0.5rem;
   color: white;
   appearance: button;
   background-color: hsl(140, 52%, 55%);
+  margin: 0;
+
+  a,
+  svg {
+    margin: 0;
+  }
 
   &:hover {
     background-color: hsl(140, 42%, 50%);
+  }
+}
+
+.project__wrapper {
+  display: flex;
+  gap: 10px;
+}
+.project__image,
+.project__left {
+  width: 50%;
+}
+
+.project__image {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  object-fit: contain;
+  order: 1;
+}
+
+.project__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+.projects li:nth-of-type(even) .project__left {
+  order: 2;
+}
+
+@media (max-width: 1024px) {
+  .project__wrapper {
+    flex-direction: column;
+  }
+  .project__left,
+  .project__image {
+    width: 100%;
+  }
+
+  .project__image {
+    order: -1;
   }
 }
