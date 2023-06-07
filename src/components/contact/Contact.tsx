@@ -1,6 +1,7 @@
 import "./contact.scss"
 import { RxEnvelopeClosed } from "react-icons/rx"
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
+import { BiDownload } from "react-icons/bi"
 
 const Contact = () => {
   return (
@@ -28,6 +29,10 @@ const Contact = () => {
           <a href="https://github.com/smn0000" target="_blank">
             <AiFillGithub size={40} />
             <span className="hidden">Github</span>
+          </a>
+          <a href="resume.pdf" download className="download__btn">
+            <BiDownload size={30} />
+            <span>Resume</span>
           </a>
         </p>
       </div>

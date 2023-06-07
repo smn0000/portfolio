@@ -1,5 +1,5 @@
 import "./about.scss"
-
+import { BiDownload } from "react-icons/bi"
 const About = () => {
   return (
     <section className="section about" id="about">
@@ -13,6 +13,10 @@ const About = () => {
           been hooked ever since. I love learning new skills and staying
           up-to-date in this ever-evolving field.
         </p>
+        <a href="resume.pdf" download className="download__btn">
+          <BiDownload size={30} />
+          <span>Resume</span>
+        </a>
       </div>
       <div className="about__right"></div>
     </section>
