@@ -7,7 +7,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <ul className="projects__list">
         <li>
-          <h3>Audiophile</h3>
+          <h3>Quiz</h3>
           <div className="project__wrapper">
             <img
               src="quiz.jpg"
