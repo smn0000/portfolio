@@ -10,6 +10,45 @@ const Projects = () => {
           <h3>Audiophile</h3>
           <div className="project__wrapper">
             <img
+              src="quiz.jpg"
+              loading="lazy"
+              alt=""
+              className="project__image"
+            />
+            <div className="project__left">
+              <p className="project__description">
+                Build using React, TypeScript, Sass. A quiz website that uses
+                serverless api to get a list of available categories and random
+                questions form selected categories
+              </p>
+
+              <div className="projects__buttons">
+                <a
+                  href="https://szymonstrzelec-quiz.netlify.app"
+                  target="_blank"
+                  className="projects__button"
+                  role="button"
+                >
+                  <BiWorld />
+                  Website
+                </a>
+                <a
+                  href="https://github.com/smn0000/quiz"
+                  target="_blank"
+                  className="projects__button"
+                  role="button"
+                >
+                  <BiCode />
+                  Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h3>Audiophile</h3>
+          <div className="project__wrapper">
+            <img
               src="Audiophile.jpeg"
               loading="lazy"
               alt=""
